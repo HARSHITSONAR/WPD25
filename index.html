@@ -1,223 +1,80 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>
-        Practical 23
-        Roll no 14
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<y>
-    <h1 style="background-color:royalblue " align="center" class="Algerian"><u>PRACTICAL 23</u></h1>
-    <p align="right" class="Algerian"><u><i>BY PROFF C.S.MOAGRE</i></u></p><hr />
-    <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <style>
-
-            * {
-                box-sizing: border-box;
-            }
-
-            .row::after {
-                content: "";
-                clear: both;
-                display: table;
-            }
-
-            [class*="col-"] {
-                float: left;
-                padding: 15px
-            }
-
-            html {
-                font-family: "Lucida Sans", sans-serif;
-            }
-
-            .header {
-                background-color: #d22905;
-                color: #ffffff;
-                padding: 15px;
-            }
-
-            .menu ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-            }
-
-
-
-            .menu li {
-                padding: 8px;
-                margin-bottom: 7px;
-                background-color: #d22905;
-                color: #ffffff;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-            }
-
-                .menu li:hover {
-                    background-color: #d22905;
-                }
-
-            .aside {
-                background-color: #d22905;
-                padding: 15px;
-                color: #ffffff;
-                text-align: center;
-                font-size: 14px;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-            }
-
-            .footer {
-                background-color: #0099cc;
-                color: #ffffff;
-                text-align: center;
-                font-size: 12px;
-                padding: 15px;
-            }
-            /* For mobile phones: */
-            [class*="col-"] {
-                width: 100%;
-            }
-
-            @media only screen and (min-width: 600px) {
-                /* For tablets: */
-                .col-s-1 {
-                    width: 8.33%;
-                }
-
-                .col-s-2 {
-                    width: 16.66%;
-                }
-
-                .col-s-3 {
-                    width: 25%;
-                }
-
-                .col-s-4 {
-                    width: 33.33%;
-                }
-
-                .col-s-5 {
-                    width: 41.66%;
-                }
-
-                .col-s-6 {
-                    width: 50%;
-                }
-
-                .col-s-7 {
-                    width: 58.33%;
-                }
-
-                .col-s-8 {
-                    width: 66.66%;
-                }
-
-                .col-s-9 {
-                    width: 75%;
-                }
-
-                .col-s-10 {
-                    width: 83.33%;
-                }
-
-
-                .col-s-11 {
-                    width: 91.66%;
-                }
-
-                .col-s-12 {
-                    width: 100%;
-                }
-
-                @media only screen and (min-width: 768px) {
-                    /* For desktop: */
-                    .col-1 {
-                        width: 8.33%;
-                    }
-
-                    .col-2 {
-                        width: 16.66%;
-                    }
-
-                    .col-3 {
-                        width: 25%;
-                    }
-
-                    .col-4 {
-                        width: 33.33%;
-                    }
-
-                    .col-5 {
-                        width: 41.66%;
-                    }
-
-                    .col-6 {
-                        width: 50%;
-                    }
-
-                    .col-7 {
-                        width: 58.33%;
-                    }
-
-                    .col-8 {
-                        width: 66.66%;
-                    }
-
-                    .col-9 {
-                        width: 75%;
-                    }
-
-                    .col-10 {
-                        width: 83.33%;
-                    }
-
-                    .col-11 {
-                        width: 91.66%;
-                    }
-
-
-                    .col-12 {
-                        width: 100%;
-                    }
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1 align="center">WELCOME TO MET BKC</h1>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-3 menu">
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
                 <ul>
-                    <li>POLYTECHNIC</li>
-
-                    <li>ENGINEERING</li>
-                    <li>MANAGEMENT</li>
-                    <li>PHARMACY</li>
-                </ul> <a target="_blank" href="https://metbhujbalknowledgecity.ac.in/">
-                    <img src="imagess.jpg" height="200px" width="400px" />
-                </a>
-            </div>
-            <div class="col-6 col-s-9">
-                <h1 style="background-color:red">MET-BKC</h1>
-                <p>
-                    A well-known educational institution in Nashik, India, offering engineering, management, and other courses.
-                </p>
-            </div>
-            <div class="col-3 col-s-12">
-                <div class="aside">
-                    <h2 style="font-color:bleck"><u>What?</u></h2>
-                    <p>A group of colleges which have courses like Engineering,Polytechnic,Pharmacy,Management.</p>
-                    <h2><u>Where?</u></h2>
-                    <p>ADGAON,NASHIK.</p>
-                    <h2><u>Why?</u></h2>
-                    <p>Best college in Nashik & have variety of courses.</p>
-                </div>
-            </div>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
+    </header>
 
-    </body>
-    <h5 align="left"><u>TO VISIT THE COLLEGE WEBSITE VISIT THE LINK BELOW:-</u> </h5>
-    <a href="https://metbhujbalknowledgecity.ac.in/">COLLEGE WEBSITE</a>
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm a passionate web developer with experience in HTML, CSS, JavaScript, and more. I love creating user-friendly and responsive websites.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3><a href="Prac23.html">Project 23</a></h3>
+                <p>Description of the first project.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Description of the second project.</p>
+            </div>
+            <!-- Add more projects as necessary -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to work together or just want to get in touch, feel free to reach out!</p>
+            <form action="#">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
-</html> Imagess.jpg
